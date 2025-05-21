@@ -131,7 +131,7 @@ if (isset($_SESSION['company_form_errors'])) {
                         <div class="form-group">
                             <label class="input-title" for="phone">Teléfono:</label>
                             <input type="tel" id="phone" name="phone" class="form-control" 
-                                inputmode="numeric"
+                                 inputmode="numeric"
                                    value="<?php echo htmlspecialchars($company['phone']); ?>">
                         </div>
                         </div>
